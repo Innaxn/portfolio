@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Button, IconButton, Box } from '@mui/material';
-import cvFile from '../assets/Cv.pdf';
+import cvFile from '../assets/CV.pdf';
 import Section from '../components/Section';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
