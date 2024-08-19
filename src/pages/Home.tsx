@@ -3,6 +3,7 @@ import { Typography, Button, IconButton, Box } from '@mui/material';
 import cvFile from '../assets/CV.pdf';
 import Section from '../components/Section';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import homepageImage from '../assets/images/homepage.jpg';
 
 const Home: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -20,7 +21,7 @@ const Home: React.FC = () => {
       id="home"
       title="Home"
       sx={{
-        backgroundImage: 'url(/homepage.jpg)',
+        backgroundImage: `url(${homepageImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
